@@ -27,7 +27,9 @@ const LoginForm = () => {
     },
   });
 
-  async function onSubmit(data: z.infer<typeof formSchema>) {}
+  async function onSubmit(data: z.infer<typeof formSchema>) {
+    console.log(data);
+  }
 
   return (
     <>
